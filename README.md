@@ -24,7 +24,7 @@ Este projeto tem como objetivo explorar, analisar e visualizar o desempenho de j
 git clone https://github.com/r7melo/Projeto_Analise_Basquete.git
 
 # 2. Acesse a pasta do projeto
-cd nome-do-repositorio
+cd Projeto_Analise_Basquete
 
 # 3. Instale as dependências
 pip install -r requirements.txt
