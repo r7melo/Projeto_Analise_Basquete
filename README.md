@@ -26,11 +26,16 @@ git clone https://github.com/r7melo/Projeto_Analise_Basquete.git
 # 2. Acesse a pasta do projeto
 cd Projeto_Analise_Basquete
 
-# 3.1 Exportar as dependências
-conda env export > environment.yml
-
-# 3.1 Instalar as dependências
-conda env update --file environment.yml --name ambiente_virtual
+# 3. Criar ambiente
+conda env create -f environment.yml
 
 # 4. Execute a aplicação
 streamlit run app.py
+
+
+# Ajustes
+# 1. Exportar as dependências
+conda env export > environment.yml
+
+# 2. Instalar as dependências
+conda env update --file environment.yml --name ambiente_virtual
